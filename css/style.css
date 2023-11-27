@@ -47,6 +47,7 @@ li {
   list-style: none;
   display: inline;
   margin-inline: 5px;
+  padding: 5px;
 }
 
 .header-bot {
@@ -251,19 +252,39 @@ footer {
   background-color: #23272a;
   height: 800px;
 }
+.ita-flag {
+  padding: 10px;
+  color: white;
+  width: 50px;
+  
+}
+.footer-h2 {
+  color: #7289da;
+}
+.region {
+  padding: 10px;
+  font-weight: bolder;
+  color: white;
+}
+h3 {
+  padding: 5px;
+  color: #7289da;
+}
 .footer-box-pink {
-  background-color: #f08080;
-  border: 2px dashed black;
+  border: 2px none none;
   height: 550px;
   width: 300px;
-  margin-bottom: 200px;
 }
 .cian-box {
-  background-color: #20b2aa;
-  border: 2px dashed white;
+  display: flex;
+  flex-direction: column;
   height: 550px;
-  width: 250px;
-  margin-bottom: 200px;
+}
+.footer-list {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 300px;
 }
 .footer-div {
   display: flex;
@@ -272,7 +293,6 @@ footer {
   border: 2px solid #d7d7d8;
   background-color: #23272a;
   height: 100px;
-
   border-left: none;
   border-right: none;
   border-bottom: none;
@@ -281,19 +301,24 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px dashed none;
-  background-color: #7fffd4;
+  border: 2px none;
   height: 50px;
   width: 1000px;
   margin-top: 48px;
 }
 .text-footer {
   padding: 5px;
-  border: 2px dashed black;
-  background-color: #ffb6c1;
+  border: 2px none
+  
 }
 .text-button {
   padding: 5px;
   border: 2px dashed black;
-  background-color: #ffb6c1;
+  
+  text-align: center;
+  border: 2px none black;
+  background-color: #8EA1E1;
+  border-radius: 40px;
+  padding: 10px;
+  
 }
